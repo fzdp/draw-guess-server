@@ -1,0 +1,19 @@
+zh-CN:
+  activerecord:
+    errors:
+      format: "%{attribute}%{message}"
+      messages:
+        blank: "不能为空值"
+        too_short: "长度不能少于%{count}个字符"
+        too_long: "长度不能多于%{count}个字符"
+        taken: "已经被占用"
+        invalid: "无效"
+        confirmation: "不一致"
+    attributes:
+      user:
+        name: "昵称"
+        email: "邮箱"
+      room:
+        name: "名字"
+        password: "密码"
+

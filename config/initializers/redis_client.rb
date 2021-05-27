@@ -1,0 +1,1 @@
+$redis = ConnectionPool.new(size: 5) { Redis.new(Rails.application.config_for(:redis)) }
